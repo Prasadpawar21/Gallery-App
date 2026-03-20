@@ -1,18 +1,17 @@
-# React + Vite
+Description : Build a Gallery app by applying the concepts by applying the concepts of react js such as "functional" and "class" Componets , react states (controlled and uncontrolled) ,basics of javascript , HTML/CSS , etc .
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/2062e8f9-caeb-47d1-b1f4-c4640820045a" />
+Functionality : The app must have the following functionalities
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Initially, the first image in the list is displayed
+When the user clicks on a thumbnail, then the corresponding image is displayed
+The Gallery component is provided with imagesList. It consists of a list of image details objects with the following properties in each object
 
-Currently, two official plugins are available:
+{
+id :Number , 
+imageUrl : String , 
+thumbnailUrl : String , 
+imageAltText:String , 
+thumbnailAltText :String  
+}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment : https://prasad510.ccbp.tech/
