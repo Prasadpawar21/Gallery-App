@@ -1,0 +1,12 @@
+/* Write your code here. */
+.thumbnail {
+  padding-right: 8px;
+}
+.blur-thumbnail {
+  opacity: 0.5;
+}
+.button {
+  padding: 0;
+  border: none;
+  background-color: white;
+}

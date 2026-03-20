@@ -1,0 +1,75 @@
+/* Write your code here. */
+.main-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-div {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 60%;
+  width: 60%;
+  background-size: cover;
+}
+
+.text-container {
+  width: 60%;
+  display: flex;
+  font-family: 'Roboto';
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.unorderedList {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+}
+.para {
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .sub-div {
+    height: 100%;
+    width: 100%;
+  }
+  .img {
+    height: 90%;
+    width: 90%;
+  }
+  .text-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .sub-div {
+    height: 100%;
+    width: 100%;
+  }
+  .img {
+    height: 70%;
+    width: 70%;
+  }
+  .text-container {
+    width: 70%;
+  }
+}
